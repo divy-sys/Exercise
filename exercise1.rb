@@ -4,4 +4,5 @@ def result(marks, passed_mark)
   marks.group_by {|key, value| (value > passed_mark)? "Pass" : "fail"}
 end
 
+
 p result(marks, 40)
